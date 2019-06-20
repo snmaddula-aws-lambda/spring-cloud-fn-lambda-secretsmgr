@@ -14,4 +14,4 @@
 
 #### Response: Secret Values retrieved from AWS SecretsManager
 
-![](assets/POSTMAN_1.PNG)
+![](assets/POSTMAN_2.PNG)
