@@ -1,17 +1,23 @@
 # Spring Cloud Function for AWS Lambda
 ### Retrieves Secret Values from the SecretsManager for the given Secret Id.
 
+## Configuring Lambda Handler on AWS Console
 
-#### Run using the below command
+![](assets/LAMBDA_HANDLER_CONFIG.PNG)
+
+
+### To Test Locally follow the below steps
+
+#### 1. Run using the below command
 
 `
     mvn clean spring-boot:run
 `
 
-#### Request: Provide the secretId and invoke POST endpoint
+#### 2. Request: Provide the secretId and invoke POST endpoint
 
 ![](assets/POSTMAN_1.PNG)
 
-#### Response: Secret Values retrieved from AWS SecretsManager
+#### 3. Response: Secret Values retrieved from AWS SecretsManager
 
-![](assets/POSTMAN_1.PNG)
+![](assets/POSTMAN_2.PNG)
